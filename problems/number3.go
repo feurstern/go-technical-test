@@ -15,7 +15,7 @@ type Data struct {
 	Body   string `json:"body"`
 }
 
-func Number3() {
+func main() {
 	router := gin.Default()
 
 	// fmt.Printf("API_URL: %s", os.Getenv("API_URL"))
